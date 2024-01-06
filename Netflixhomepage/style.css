@@ -1,0 +1,510 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    height: 110vh;
+    width: 100%;
+    position: absolute;
+    background-image:url(/Netflixhomepage/NP-en-20231225-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.4);
+    top: 0%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 165px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.nav button {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 14px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 600;
+    width: 80px;
+    height: 35px;
+    border: 1px rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    position: relative;
+    z-index: 10;
+}
+.body{
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.body{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.body .text{
+    display: flex;
+    align-items: center;
+flex-direction: column;
+}
+.text :nth-child(1){
+    font-size: 48px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bolder;
+}
+.text :nth-child(2){
+    font-size: 24px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 600px;
+    
+}
+.text :nth-child(3){
+    font-size: 20px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 600px;
+}
+.text span{
+    padding: 5px;
+}
+.email{
+    padding: 10px 30px;
+}
+.body .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body button{
+    height: 55px;
+    width: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border: 0px;
+    border-radius: 4px;
+}
+.body input{
+    height: 40px;
+    width: 264px
+}
+.body .email input{
+    color: white;
+    margin: 0px 10px;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    padding: 7px 101px 8px 15px ;
+}
+.box{
+    height: 50vh;
+    width: 100%;
+    padding: 72px 0px;
+    background-color: black;
+    position: relative;
+    top: 0%;
+    border-top: 1.5vh solid rgba(246, 238, 238, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    justify-content: space-around;
+}
+.box1 .text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+.box1 .video img{
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    width: 400px;
+}
+.box1 .video{
+    width: 40vw;
+}
+.video video {
+    position: absolute;
+    top: 22%;
+    left: 792px;
+    width: 310px;
+}
+.box2{
+    position: relative;
+}
+.box2 .text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.box2 .video img{
+    position: relative;
+    z-index: 3;
+}
+.box2 > .video > .video1{
+    position: absolute;
+    top: 65%;
+    left: 226px;
+    width: 216px;
+    height: 70px;
+}
+.video1{
+display: flex;
+align-items: center;
+border: 2px solid rgba(246, 238, 238, 0.5);
+background-color: black;
+position: relative;
+z-index: 10;
+border-radius: 10px;
+}
+.video1 > .part1{
+width: 30vw;
+}
+.video1 > .part2{
+width: 75vw;
+display: flex;
+flex-direction: column;
+color: white;
+}
+.video1 .part2 span:first-child{
+    font-size: 16px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 800px;
+}
+.video1 .part2 span:first-child{
+    font-size: 14px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 800px;
+}
+.video1 .part1 img{
+    width: 39px;
+    padding-left: 7px;
+}
+.video1 > .part3{
+width: 20vw;
+/* background: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif') center center no-repeat; */
+}
+.video1 .part3 img{
+    width: 35px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+}
+.box3 .text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.box3 .video img{
+    position: absolute;
+    z-index: 3;
+    overflow: hidden;
+}
+/* .box3 .video video{
+    position: relative;
+    top: 0%;
+width: 500px; */
+/* } */
+.box4 .text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.box4 .video img{
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+/* .box4 .video video{
+    position: relative;
+    top: 0%;
+width: 500px; */
+/* } */
+.box5{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 165vh;
+}
+.box5 > span{
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Martel Sans', sans-serif;
+}
+.box5 :nth-child(8){
+    font-size: 20px;
+    font-weight: 500;
+    padding: 45px 0px 0px 0px;
+}
+.item{
+    height: 15vh;
+    width: 80vw;
+    background-color: rgb(45 45 45);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+    font-weight: 800px;
+    font-family: 'Martel Sans', sans-serif;
+}
+.item span{
+    padding:0px 20px;
+}
+
+.box input{
+    height: 40px;
+    width: 264px
+}
+.box .email input{
+    color: white;
+    margin: 0px 10px;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    padding: 7px 101px 8px 15px ;
+}
+.box button{
+    height: 55px;
+    width: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border: 0px;
+    border-radius: 4px;
+}
+.box6{
+    height: 50vh;
+    width: 100%;
+    padding: 72px 0px;
+    background-color: black;
+    position: relative;
+    top: 0%;
+    border-top: 1.5vh solid rgba(246, 238, 238, 0.5);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.list{
+    
+    display: flex;
+     /* align-items: center; */
+     /* justify-content: space-evenly; */
+     color:rgba(255, 255, 255, 0.7);
+    flex-direction: column;
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.list ul li{
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 152px;
+}
+.box6 div span{
+    color:rgba(255, 255, 255, 0.7);
+    padding: 0px 0px 0px 92px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+}
+    @media only screen and (max-width:400px) {
+        .nav{
+            padding: 15px 0px 0px 0px;
+            justify-content: space-around;
+        }
+        .nav img{
+            width: 88.8px;
+            height: 24px;
+            padding-right: 100px;
+        }
+        .nav button{
+            width: 77px;
+            height: 32px;
+            font-size: 14px;
+        }
+        .body .text{
+            /* font-size: 32px; */
+            line-height: 1.2;
+            text-align: center;
+        }
+        .body .text :nth-child(1){
+            font-size: 32px;
+        }
+        .body .text :nth-child(2){
+            font-size: 18px;
+        }
+        .body .text :nth-child(3){
+            font-size: 18px;
+        }
+        .body .email{
+            flex-direction: column;
+            row-gap: 15px;
+        }
+        .body .email input{
+            width: 177px;
+            height: 32px;
+        }
+        .box1{
+            flex-direction: column;
+            padding: 50px 0px;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .box1 .text{
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+        }
+        .box1 .text :nth-child(1){
+            font-size: 32px;
+            padding: 0px;
+    
+        }
+        .box1 .text :nth-child(2){
+            font-size: 18px;
+            padding: 0px;
+        }
+        .box1 .video img{
+            width: 342px;
+            height: 255px;
+            top: 42%;
+            left: 12%;
+        }
+        .box1 .video video{
+            height: 140px;
+            width: 250px;
+            top: 52%;
+            left: 23%;
+        }
+        .box2{
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+        .box2 .text{
+            width: 100%;
+        }
+        .box2 .text :nth-child(1){
+font-size: 32px;
+line-height: 1.5;
+width: 100%;
+padding: 0px;
+        }
+        .box2 .text :nth-child(2){
+font-size: 18px;
+width: 100%;
+padding: 0px;
+        }
+        .box2 .video .video1{
+            top: 74%;
+            left: 20.5%;
+        }
+.box2 .video img{
+    right: 6px;
+}
+.box3 .text :nth-child(1){
+    font-size: 32px;
+    padding: 0px;
+}
+.box3 .text{
+    width: 100%;
+    text-align: center;
+}
+.box3 .text :nth-child(2){
+font-size: 18px;
+padding: 0px;
+}
+.box4{
+    flex-direction: column-reverse;
+}
+.box4 .text{
+    width: 100%;
+    text-align: center;
+}
+.box4 .text :nth-child(1){
+    font-size: 32px;
+    padding: 0px;
+}
+.box4 .text :nth-child(2){
+font-size: 18px;
+padding: 0px;
+}
+.box4 .video img{
+right: 7px;
+}
+.box5{
+    text-align: center;
+}
+.box5 :nth-child(1){
+    font-size: 32px;
+    line-height: 1.5;
+}
+.box5 .item :first-child{
+    font-size: 18px;
+    padding:0px 0px 0px 20px;
+}
+.box5 .item :last-child{
+    font-size: 18px;
+    padding:0px 20px 0px 0px;
+}
+.box5 :nth-child(8){
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 45px 25px 0px 25px;
+}
+.box5 :nth-child(9){
+    padding: 0px;
+    margin: 0px;
+}
+.box5 :nth-child(9) input{
+    margin: 0px;
+    width: 215px;
+}
+.box5 :nth-child(9) button{
+margin-top: 20px;
+}
+.box6 div span{
+    font-size: 16px;
+}
+.box6 .list ul li{
+    font-size: 14px;
+}
+.box6 .list ul{
+flex-wrap: wrap;
+}
+.box6 .list :nth-child(6) li{
+    padding-top: 0px;
+}
+    }
